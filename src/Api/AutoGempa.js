@@ -1,7 +1,7 @@
 import { useQuery } from "react-query";
 import axios from "axios";
 
-function GetDataGempa() {
+const GetDataGempa = () => {
   return useQuery("Infogempa", async () => {
     const { data } = await axios.get(process.env.REACT_APP_API_GEMPA, {
       headers: {

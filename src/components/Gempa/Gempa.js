@@ -19,7 +19,7 @@ const Gempa = () => {
     return (
       <Box sx={{ paddingBottom: 2 }}>
         <Typography component="h1" variant="h2">
-          Gempabumi Dirasakan
+          BMKG Gempabumi Dirasakan
         </Typography>
         <Typography variant="h3" component="h4">
           Loading...
@@ -30,7 +30,7 @@ const Gempa = () => {
     return (
       <Box sx={{ paddingBottom: 2 }}>
         <Typography component="h1" variant="h2">
-          Gempabumi Dirasakan
+          BMKG Gempabumi Dirasakan
         </Typography>
         <Typography variant="h3" component="h4">
           An error has occurred: {error.message}
