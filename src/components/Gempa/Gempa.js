@@ -42,7 +42,7 @@ const Gempa = () => {
     <>
       <Box sx={{ paddingBottom: 2 }}>
         <Typography component="h1" variant="h2">
-          Gempabumi Dirasakan
+          BMKG Gempabumi Dirasakan
         </Typography>
       </Box>
       <TableContainer component={Paper}>
