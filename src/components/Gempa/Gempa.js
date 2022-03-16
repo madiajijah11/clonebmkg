@@ -10,7 +10,7 @@ import {
   Box,
 } from "@mui/material";
 import "./styles.css";
-import GetDataGempa from "../../Api/AutoGempa";
+import GetDataGempa from "../../api/AutoGempa";
 
 const Gempa = () => {
   const { isLoading, isError, error, data } = GetDataGempa();
