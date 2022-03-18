@@ -51,6 +51,11 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
   },
 }));
 
+
+const MenuOnPress = () => {
+  
+};
+
 export default function SearchAppBar() {
   return (
     <Box sx={{ flexGrow: 1 }}>
@@ -62,6 +67,7 @@ export default function SearchAppBar() {
             color="inherit"
             aria-label="open drawer"
             sx={{ mr: 2 }}
+            onClick={MenuOnPress}
           >
             <MenuIcon />
           </IconButton>
@@ -71,7 +77,7 @@ export default function SearchAppBar() {
             component="div"
             sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
           >
-            MUI
+            GenzoDR
           </Typography>
           <Search>
             <SearchIconWrapper>

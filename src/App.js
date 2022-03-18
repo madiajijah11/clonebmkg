@@ -12,6 +12,7 @@ function App() {
       <SearchAppBar />
       <Container sx={{ paddingTop: 10, paddingBottom: 10 }}>
         <QueryClientProvider client={queryClient}>
+          
           <Gempa />
           <ReactQueryDevtools initialIsOpen />
         </QueryClientProvider>
